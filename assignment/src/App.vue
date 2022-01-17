@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="myApp">
     <div class="content">
       <div class="userInfo">
         <img class="pics" :src="VMSIcon" />
@@ -141,7 +141,7 @@ export default {
 </script>
 
 <style>
-#app {
+#myApp {
   width: 100%;
   height: 100%;
   margin: 0px;
